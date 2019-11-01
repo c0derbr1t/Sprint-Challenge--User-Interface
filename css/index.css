@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* *HOME PAGE* */
+
 /* Navigation Bar and Header */
 
 header {
@@ -96,6 +98,7 @@ header {
     margin-bottom: 20px;
 }
 
+
 /* First Section */
 
 .container {
@@ -116,6 +119,7 @@ header {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 /* Box Section */
 
@@ -146,6 +150,45 @@ header {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
 
 
 /* Bottom Section */
@@ -163,6 +206,9 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -182,3 +228,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* *ABOUT PAGE* */
+
+/*  */
