@@ -66,6 +66,48 @@ p {
     line-height: 1.4;
 }
 
+/* *HOME PAGE* */
+
+/* Navigation Bar and Header */
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 2.5% 0 5%;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    padding: 5px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.logo {
+    margin-right: -4%;
+}
+
+.headerImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* First Section */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +126,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* Box Section */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +157,55 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:hover {
+    border: 3px outset grey;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
+/* Bottom Section */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +219,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -143,4 +240,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* *ABOUT PAGE* */
+
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* First Section */
+
+.firstSection {
+    padding: 0 3% 3%;
+}
+
+hr {
+    border: 0.5px dashed black;
+    margin: 0;
+}
+
+
+/* Middle Section */
+
+.middleSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.middleSection .contentBlock {
+    border-bottom: 0.5px dashed black;
+    width: 46%;
+    margin: 2%;
+}
+
+.middleSection .text-container {
+    margin-bottom: 4%;
+}
+
+.middleSection .button {
+    width: 35%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    line-height: 2.3;
+    text-align: center;
+}
+
+.middleSection .button:hover {
+    background: black;
+    color: floralwhite;
+    border: 2px outset grey;
+}
+
+
+/* Bottom Section */
+
+.bottomSection {
+    padding: 0 3% 5%;
 }
