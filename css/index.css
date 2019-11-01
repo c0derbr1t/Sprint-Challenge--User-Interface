@@ -232,4 +232,37 @@ footer nav a {
 
 /* *ABOUT PAGE* */
 
-/*  */
+/* First Section */
+
+.firstSection {
+    padding: 0 3% 3%;
+}
+
+hr {
+    border: 0.5px dashed black;
+    margin: 0;
+}
+
+
+/* Second Section */
+
+
+
+/* .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+} */
