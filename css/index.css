@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation Bar and Header */
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 2.5% 0 5%;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    margin-right: -4%;
+}
+
+.headerImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* First Section */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +116,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Box Section */
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +145,10 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+
+/* Bottom Section */
 
 .bottom-content {
     display: flex;
