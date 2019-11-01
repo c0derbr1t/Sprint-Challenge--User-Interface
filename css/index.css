@@ -232,6 +232,11 @@ footer nav a {
 
 /* *ABOUT PAGE* */
 
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 /* First Section */
 
 .firstSection {
@@ -245,6 +250,35 @@ hr {
 
 
 /* Second Section */
+
+.middleSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
+
+.middleSection .contentBlock {
+    border-bottom: 0.5px dashed black;
+    width: 46%;
+    margin: 2%;
+}
+
+.middleSection .text-container {
+    margin-bottom: 4%;
+}
+
+.middleSection .button {
+    width: 35%;
+    margin-bottom: 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+    line-height: 2.3;
+    text-align: center;
+}
+
 
 
 
