@@ -249,7 +249,7 @@ hr {
 }
 
 
-/* Second Section */
+/* Middle Section */
 
 .middleSection {
     display: flex;
@@ -257,7 +257,6 @@ hr {
     justify-content: space-between;
     margin-top: 2%;
     margin-bottom: 4%;
-
 }
 
 .middleSection .contentBlock {
@@ -272,7 +271,7 @@ hr {
 
 .middleSection .button {
     width: 35%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     border: 2px solid black;
     border-radius: 10px;
     line-height: 2.3;
@@ -280,23 +279,8 @@ hr {
 }
 
 
+/* Bottom Section */
 
-
-/* .container {
-    width: 800px;
-    margin: 0 auto;
+.bottomSection {
+    padding: 0 3% 5%;
 }
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-} */
